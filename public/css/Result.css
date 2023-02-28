@@ -1,0 +1,284 @@
+.sidefill {
+  top: 0px;
+  left: 0px;
+  width: 14.5vw;
+  height: 100%;
+  position: absolute;
+  border-color: transparent;
+}
+
+.register-page {
+  top: 100px;
+  left: 0px;
+  width: 14.5vw;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  border-bottom: 1px solid blue;
+  background-color: transparent;
+}
+
+.regpage-link {
+  top: 10px;  
+  left: 1.5vw;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 1.5vw;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Cabin;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+}
+
+.result {
+  top: 150px;
+  left: 0px;
+  width: 14.5vw;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  border-bottom: 1px solid blue;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.result-link {
+  top: 10px;
+  left: 1.5vw;
+  color: rgb(0, 0, 0);
+  width: auto;
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 1.5vw;
+  align-self: center;
+  font-style: Bold;
+  text-align: center;
+  font-family: Cabin;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+}
+
+.course-history {
+  top: 200px;
+  left: 0px;
+  width: 14.5vw;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.c-hist-link {
+  top: 10px;
+  left: 1.5vw;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 1.5vw;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Cabin;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+}
+
+.pane {
+  overflow-y: scroll;
+  max-height: 100px;
+}
+
+.registered-course-table {
+  top: 100px;
+  position: absolute;
+  border-color: rgba(0, 0, 100, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(240, 244, 248, 1);
+  margin: auto;
+}
+
+.course-inqueue-table {
+  top: 500px;
+  position: absolute;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 100, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(240, 244, 248, 1);
+}
+
+.head {
+  text-align: center;
+}
+
+.head0 {
+  text-align: center;
+  padding: 0px 2vw;
+}
+
+.navbar .container-fluid {
+  background-color: #f1f1f1;
+  padding: 0 0;
+}
+
+.navbar {
+  top: 0%;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 0 !important;
+  border-top: 1px solid #000000;
+}
+
+.navbar .nav-item .last {
+  border: none;
+}
+
+.navbar .nav-link {
+  line-height: 3.8rem;
+  margin: 0.5rem 0;
+  padding: 0 2.6vw !important;
+  color: #5f5f5f;
+  border-right: 2px solid #0066ff;
+}
+
+.navbar .nav-item:hover {
+  background-color: #cde0ff;
+}
+
+.navbar .nav-item {
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  font-size: 1.45rem;
+  background-color: #f1f1f1;
+}
+
+.navbar .active {
+  background-color: #cde0ff;
+}
+
+.nav-list {
+  list-style: none
+}
+
+.result-button-view {
+  top: 86px;
+  left: 84vw;
+  width: 100vw;
+  height: 1%;
+  position: absolute;
+}
+
+.button-view {
+  border: none;
+  color: black;
+  padding: 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  margin: 0px 0px;
+  cursor: pointer;
+  background-color: bisque;
+}
+  
+.year-select {
+  top: 90px;
+  left: 70vw;
+  width: 20vw;
+  height: 5%;
+  position: absolute;
+}
+
+.sem-select {
+  top: 90px;
+  left: 80vw;
+  width: 10vw;
+  height: 5%;
+  position: absolute;
+}
+
+a:link {
+  color: blue;
+}
+
+a:active {
+  color: rgb(0, 0, 100);
+}
+
+table {
+  font-size: 1.2vw;
+  width: 82vw;
+  height: 8vh;
+  left: 16vw;
+  margin: auto;
+  max-height: 50px;
+}
+
+label {
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  margin: 0px 1px 0px;
+}
+
+th {
+  border: 1px solid #0066ff;
+  font-size: 1rem;
+}
+
+td {
+  text-align: center;
+  font-size: 1rem;
+}
+
+tbody {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+caption {
+  caption-side: top;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 1.6rem;
+  font-style: Bold;
+  text-align: center;
+  font-family: Cabin;
+  font-weight: 700;
+  line-height: normal;
+}

@@ -1,0 +1,223 @@
+.register-sidefill {
+  top: 0px;
+  left: 0px;
+  width: 14.5vw;
+  height: 100%;
+  position: absolute;
+  border-color: transparent;
+}
+
+.register-regpage {
+  top: 100px;
+  left: 0px;
+  width: 14.5vw;
+  height: 6vh;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  border-bottom: 1px solid blue;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.register-regpage-link {
+  top: 10px;  
+  left: 1.5vw;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 1.5vw;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Cabin;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+}
+
+.register-result {
+  top: 150px;
+  left: 0px;
+  width: 14.5vw;
+  height: 6vh;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  border-bottom: 1px solid blue;
+  background-color: transparent;
+}
+
+.register-res-link {
+  top: 10px;
+  left: 1.5vw;
+  color: rgb(0, 0, 0);
+  width: auto;
+  bottom: 0px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 1.5vw;
+  align-self: center;
+  font-style: Bold;
+  text-align: center;
+  font-family: Cabin;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+}
+
+.register-course-history {
+  top: 200px;
+  left: 0px;
+  width: 14.5vw;
+  height: 6vh;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.register-c-hist-link {
+  top: 10px;
+  left: 1.5vw;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 1.5vw;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Cabin;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+}
+
+.pane {
+  overflow-y: scroll;
+  max-height: 100px;
+}
+
+.available-course-table {
+  top: 100px;
+  position: absolute;
+  border-color: rgba(0, 0, 100, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(240, 244, 248, 1);
+  margin: auto;
+}
+
+.course-registered-table {
+  top: 500px;
+  position: absolute;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 100, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(240, 244, 248, 1);
+}
+
+.head {
+  text-align: center;
+}
+
+.head0 {
+  text-align: center;
+  padding: 0px 2vw;
+}
+
+.register-button {
+  top: 430px;
+  left: 89vw;
+  width: 10vw;
+  height: 5%;
+  position: relative;
+}
+
+.register-button-reject {
+  top: 750px;
+  left: 89vw;
+  width: 10vw;
+  height: 5%;
+  position: relative;
+}
+
+.button-reg {
+  border: none;
+  color: black;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  margin: 2px 1px;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+a:link {
+  color: blue;
+}
+
+a:active {
+  color: rgb(0, 0, 100);
+}
+
+table {
+  font-size: 1.2vw;
+  width: 82vw;
+  height: 8vh;
+  left: 16vw;
+  margin: auto;
+  max-height: 50px;
+}
+
+th {
+  border: 1px solid #0066ff;
+  font-size: 1rem;
+}
+
+td {
+  text-align: center;
+  font-size: 1rem;
+}
+
+tbody {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+caption {
+  caption-side: top;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 1.6rem;
+  font-style: Bold;
+  text-align: center;
+  font-family: Cabin;
+  font-weight: 700;
+  line-height: normal;
+}
